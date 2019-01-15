@@ -30,4 +30,12 @@ public class FabricCart {
         virt.setSizeOnDisk(size);
         return virt;
     }
+
+    private static VirtualItem initVirtualItem2(String name, double price, double size) {
+        VirtualItem virt = new VirtualItem();
+        virt.setName(name);
+        virt.setPrice(price);
+        virt.setSizeOnDisk(size);
+        return virt;
+    }
 }
